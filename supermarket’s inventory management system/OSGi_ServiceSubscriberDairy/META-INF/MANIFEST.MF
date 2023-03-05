@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: OSGi_ServiceSubscriberDairy
+Bundle-SymbolicName: OSGi_ServiceSubscriberDairy
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: osgi_servicesubscriberdairy.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Automatic-Module-Name: OSGi.ServiceSubscriberDairy
+Import-Package: itemprofitcalculator,
+ org.osgi.framework;version="1.3.0",
+ osgi_servicepublisherdairy
+Bundle-ActivationPolicy: lazy
